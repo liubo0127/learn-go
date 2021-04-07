@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2e9f130-772c-4887-9bc8-c9e2b3b87de9" name="Default Changelist" comment="" />
+    <list default="true" id="c2e9f130-772c-4887-9bc8-c9e2b3b87de9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/hello_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello/hello_test.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -90,8 +94,8 @@
         <item itemvalue="Go Test.TestHello in github.com/liubo0127/learn-go/hello" />
         <item itemvalue="Go Test.hello_test.go" />
         <item itemvalue="Go Test.TestHello/test3 in github.com/liubo0127/learn-go/hello" />
-        <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/hello" />
         <item itemvalue="Go Build.go build hello.go" />
+        <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/hello" />
       </list>
     </recent_temporary>
   </component>
