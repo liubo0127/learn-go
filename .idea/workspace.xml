@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2e9f130-772c-4887-9bc8-c9e2b3b87de9" name="Default Changelist" comment="" />
+    <list default="true" id="c2e9f130-772c-4887-9bc8-c9e2b3b87de9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -34,16 +36,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build hello.go">
-    <configuration name="go build github.com/liubo0127/learn-go/hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/hello/hello.go" />
-      <package value="github.com/liubo0127/learn-go/hello" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.ExampleAdd in github.com/liubo0127/learn-go/integers">
     <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -53,45 +46,54 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHello in github.com/liubo0127/learn-go/hello" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build integers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/hello" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/liubo0127/learn-go/hello" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/integers/integers.go" />
+      <package value="github.com/liubo0127/learn-go" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestHello\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHello/test3 in github.com/liubo0127/learn-go/hello" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="ExampleAdd in github.com/liubo0127/learn-go/integers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/hello" />
+      <working_directory value="$PROJECT_DIR$/integers" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/liubo0127/learn-go/hello" />
+      <package value="github.com/liubo0127/learn-go/integers" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestHello\E$/^\Qtest3\E$" />
+      <pattern value="^\QExampleAdd\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAdd in github.com/liubo0127/learn-go/integers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/hello" />
+      <working_directory value="$PROJECT_DIR$/integers" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/liubo0127/learn-go/integers" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestAdd\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="integers_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn-go" />
+      <working_directory value="$PROJECT_DIR$/integers" />
       <framework value="gotest" />
       <kind value="FILE" />
       <package value="github.com/liubo0127/learn-go" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/hello/hello_test.go" />
+      <filePath value="$PROJECT_DIR$/integers/integers_test.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.ExampleAdd in github.com/liubo0127/learn-go/integers" />
+        <item itemvalue="Go Test.integers_test.go" />
+        <item itemvalue="Go Build.go build integers.go" />
+        <item itemvalue="Go Test.TestAdd in github.com/liubo0127/learn-go/integers" />
         <item itemvalue="Go Build.go build hello.go" />
-        <item itemvalue="Go Test.TestHello in github.com/liubo0127/learn-go/hello" />
-        <item itemvalue="Go Test.hello_test.go" />
-        <item itemvalue="Go Test.TestHello/test3 in github.com/liubo0127/learn-go/hello" />
-        <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/hello" />
       </list>
     </recent_temporary>
   </component>
