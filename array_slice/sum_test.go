@@ -64,3 +64,26 @@ func TestSliceSumAll(t *testing.T) {
 		})
 	}
 }
+
+func TestSliceSumTail(t *testing.T) {
+	type args struct {
+		numbers [][]int
+	}
+
+	tests := []struct{
+		name string
+		args args
+		want []int
+	}{
+		{"SliceSumTail test1", args{[][]int{{1,2,3}, {4,5,6}}}, []int{5, 11}},
+		{"SliceSumTail test2", args{[][]int{{}, {1}}}, []int{0,0}},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := SliceSumTail(tt.args.numbers...); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("SliceSumTail() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}

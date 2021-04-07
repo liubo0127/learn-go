@@ -4,7 +4,7 @@
     <list default="true" id="c2e9f130-772c-4887-9bc8-c9e2b3b87de9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/array_slice/sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_slice/sum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_slice/sum_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_slice/sum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_slice/sum_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/liubo0127/learn-go/array_slice">
+  <component name="RunManager" selected="Go Test.sum_test.go">
     <configuration name="go build github.com/liubo0127/learn-go/array_slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.sum_test.go" />
+        <item itemvalue="Go Build.go build sum.go" />
         <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/array_slice" />
         <item itemvalue="Go Test.TestSliceSumAll in github.com/liubo0127/learn-go/array_slice" />
         <item itemvalue="Go Test.TestSliceSumAll/SliceSumAll_test1 in github.com/liubo0127/learn-go/array_slice" />
-        <item itemvalue="Go Build.go build sum.go" />
-        <item itemvalue="Go Test.sum_test.go" />
       </list>
     </recent_temporary>
   </component>
