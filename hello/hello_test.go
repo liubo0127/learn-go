@@ -1,6 +1,8 @@
 package main
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestHello(t *testing.T) {
 	type args struct {
@@ -17,9 +19,8 @@ func TestHello(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := Hello(tt.args.name); got != tt.want {
-				t.Errorf("Hello() = %v, want %v", got, tt.want)
-			}
+			got := Hello(tt.args.name)
+			AssertCorrectMessage(t, got, tt.want)
 		})
 	}
 }
