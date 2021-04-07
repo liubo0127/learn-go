@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e9f130-772c-4887-9bc8-c9e2b3b87de9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integers/integers_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/integers/integers_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Test.ExampleAdd in github.com/liubo0127/learn-go/integers">
+  <component name="RunManager" selected="Go Test.integers_test.go">
     <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -89,8 +89,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.ExampleAdd in github.com/liubo0127/learn-go/integers" />
         <item itemvalue="Go Test.integers_test.go" />
+        <item itemvalue="Go Test.ExampleAdd in github.com/liubo0127/learn-go/integers" />
         <item itemvalue="Go Build.go build integers.go" />
         <item itemvalue="Go Test.TestAdd in github.com/liubo0127/learn-go/integers" />
         <item itemvalue="Go Build.go build hello.go" />
