@@ -12,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -39,7 +39,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Test.TestGreet/test1 in github.com/liubo0127/learn-go/dependency_injection">
+    <configuration name="go build github.com/liubo0127/learn-go/dependency_injection" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/dependency_injection/dependency_injection.go" />
+      <package value="github.com/liubo0127/learn-go/dependency_injection" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/liubo0127/learn-go/excel" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -58,15 +67,15 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestArea in github.com/liubo0127/learn-go/struct_method_interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGreet/test1 in github.com/liubo0127/learn-go/dependency_injection" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/struct_method_interface" />
+      <working_directory value="$PROJECT_DIR$/dependency_injection" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/liubo0127/learn-go/struct_method_interface" />
+      <package value="github.com/liubo0127/learn-go/dependency_injection" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestArea\E$" />
+      <pattern value="^\QTestGreet\E$/^\Qtest1\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestShape in github.com/liubo0127/learn-go/struct_method_interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -80,23 +89,13 @@
       <pattern value="^\QTestShape\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="sum_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/array_slice" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <package value="github.com/liubo0127/learn-go" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/array_slice/sum_test.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestGreet/test1 in github.com/liubo0127/learn-go/dependency_injection" />
+        <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/dependency_injection" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/excel" />
         <item itemvalue="Go Test.TestShape in github.com/liubo0127/learn-go/struct_method_interface" />
-        <item itemvalue="Go Test.TestArea in github.com/liubo0127/learn-go/struct_method_interface" />
-        <item itemvalue="Go Test.sum_test.go" />
       </list>
     </recent_temporary>
   </component>
