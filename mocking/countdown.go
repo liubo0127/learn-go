@@ -9,7 +9,7 @@ import (
 
 const (
 	countdownStart = 3
-	finalWorld = "Go!"
+	finalWorld     = "Go!"
 )
 
 type Sleeper interface {

@@ -15,8 +15,8 @@ func CheckErr(err error) {
 }
 
 type excel struct {
-	path string
-	file *excelize.File
+	path  string
+	file  *excelize.File
 	state int // 1: new file; 0: exist file
 }
 
@@ -73,7 +73,7 @@ func (e *excel) Write(sheet string, data [][]string) error {
 		} else {
 			a := idx / 26
 			b := idx % 26
-			r = string(65 + a - 1) + string(65 + b)
+			r = string(65+a-1) + string(65+b)
 		}
 
 		return r
@@ -98,7 +98,7 @@ func (e *excel) Write(sheet string, data [][]string) error {
 
 func (e *excel) Close() error {
 	var err error
-	switch e.state{
+	switch e.state {
 	case 0:
 		err = e.file.Save()
 	case 1:

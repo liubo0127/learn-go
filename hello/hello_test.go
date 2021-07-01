@@ -6,7 +6,7 @@ import (
 
 func TestHello(t *testing.T) {
 	type args struct {
-		name string
+		name     string
 		language string
 	}
 	tests := []struct {

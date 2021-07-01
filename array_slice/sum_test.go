@@ -14,7 +14,7 @@ func TestArraySum(t *testing.T) {
 		args args
 		want int
 	}{
-		{"Array test1", args{[5]int{1,2,3,4,5}}, 15},
+		{"Array test1", args{[5]int{1, 2, 3, 4, 5}}, 15},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -34,7 +34,7 @@ func TestSliceSum(t *testing.T) {
 		args args
 		want int
 	}{
-		{"Slice test1", args{[]int{1,2,3}}, 6},
+		{"Slice test1", args{[]int{1, 2, 3}}, 6},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -49,12 +49,12 @@ func TestSliceSumAll(t *testing.T) {
 	type args struct {
 		numbers [][]int
 	}
-	tests := []struct{
+	tests := []struct {
 		name string
 		args args
 		want []int
 	}{
-		{"SliceSumAll test1", args{[][]int{{1,2,3}, {4,5,6}}}, []int{6, 15}},
+		{"SliceSumAll test1", args{[][]int{{1, 2, 3}, {4, 5, 6}}}, []int{6, 15}},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -70,13 +70,13 @@ func TestSliceSumTail(t *testing.T) {
 		numbers [][]int
 	}
 
-	tests := []struct{
+	tests := []struct {
 		name string
 		args args
 		want []int
 	}{
-		{"SliceSumTail test1", args{[][]int{{1,2,3}, {4,5,6}}}, []int{5, 11}},
-		{"SliceSumTail test2", args{[][]int{{}, {1}}}, []int{0,0}},
+		{"SliceSumTail test1", args{[][]int{{1, 2, 3}, {4, 5, 6}}}, []int{5, 11}},
+		{"SliceSumTail test2", args{[][]int{{}, {1}}}, []int{0, 0}},
 	}
 
 	for _, tt := range tests {
