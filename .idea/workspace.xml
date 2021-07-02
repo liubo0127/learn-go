@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e9f130-772c-4887-9bc8-c9e2b3b87de9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crawler/engine/engine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/engine/types.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/fetcher/fetcher.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/zhenai/parser/city.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/zhenai/parser/citylist.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/zhenai/parser/citylist_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/zhenai/parser/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/gindemo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maze/maze.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maze/maze.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/rpc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/service/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_slice/sum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_slice/sum_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/dictionary.go" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/dictionary.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/excel/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/hello_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello/hello_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integers/integers.go" beforeDir="false" afterPath="$PROJECT_DIR$/integers/integers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interation/repeat.go" beforeDir="false" afterPath="$PROJECT_DIR$/interation/repeat.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interation/repeat_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/interation/repeat_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocking/countdown.go" beforeDir="false" afterPath="$PROJECT_DIR$/mocking/countdown.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/struct_method_interface/circle_area.go" beforeDir="false" afterPath="$PROJECT_DIR$/struct_method_interface/circle_area.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,11 +105,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/http" />
-      <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/crawler" />
       <item itemvalue="Go Build.go build github.com/liubo0127/learn-go" />
-      <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/rpc/service" />
+      <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/crawler" />
+      <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/http" />
       <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/rpc/client" />
+      <item itemvalue="Go Build.go build github.com/liubo0127/learn-go/rpc/service" />
     </list>
     <recent_temporary>
       <list>
