@@ -14,8 +14,4 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 .idea
-.idea/*
-
-# go mod
-.go.mod
-.go.sum
+.idea/*.xml
